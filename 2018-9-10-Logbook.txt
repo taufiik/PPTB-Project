@@ -32,3 +32,81 @@ Minggu 14: Presentasi
 Minggu 15: Presentasi
 
 
+Rabu, 26 September 2018
+Dihadiri oleh: Imam Nur Bani Yusuf - Taufik Rahmad
+Agenda:
+-Fiksasi ide
+-Fiksasi timeline
+-List activity
+
+
+
+1. Fiksasi ide
+-Latar belakang masalah: 
+	-proses pembayaran di kantin ITB yang memakan waktu lama sehingga menyebabkan antrean yang panjang
+	-struk belanja kantin yang masih paper based
+	-kehilangan uang
+-Analisis kebutuhan: 
+	-dibutuhkan aplikasi yang dapat melakukan pembayaran dengan cepat
+	-dapat menyimpan struk belanja
+-Solusi: aplikasi fintech untuk melakukan pembayaran dengan e-money. E-money memiliki fitur top-up. Metode pembayarannya menggunakan scan QR Code. Aplikasi ini juga dapat menyimpan data struk belanja dan menghitung pengeluaran dari pengguna. Data pengguna dan transaksi disimpan di Firebase.
+
+2. List Activity
+Splash screen -> menampilkan logo aplikasi
+Login
+	-halaman login untuk pengguna
+	-ada tombol sign up
+	-ada tombol login
+Sign Up
+	-melalui akun gmail
+Dashboard utama
+	-menampilkan menu untuk user, edit profil, dan jumlah saldo. menu yang tersedia: belanja, top-up, riwayat belanja (struk)
+Halaman belanja
+	-disini user men-scan qr code untuk menambahkan barang belanjaan ke list belanja
+	-jika sudah selesai, ada tombol untuk melihat list belanja yag sudah ditambahkan
+Halaman list belanja
+	-menampilkan list belanja
+	-ada tombol untuk menghapus barang belanjaan dari list belanja
+	-ada tombol oke untuk menyelesaikan pembayaran
+	-setelah pembayaran selesai saldo otomatis berkurang dan muncul struk belanja di layar. lalu ada tombol selesai untuk kembali ke dashboard user
+Edit profil
+	-menampilkan halaman untuk memperbarui database profil
+	-ada tombol selesai untuk mengepost data ke firebase untuk diperbarui
+Halaman top-up
+	-muncul halaman untuk top up melalui qr code atau melalui voucher
+Halaman riwayat belanja
+	-menampilkan riwayat belanja dari user dalam rentang waktu tertentu yang bisa diatur oleh user
+	-menampilkan total pengeluarannya juga dari rentang waktu yang dipilih
+
+3. Fiksasi timeline
+September
+Minggu 6: 
+	menyelesaikan halaman login dan sign up (front end + 50% backend) 
+	menyelesaikan halaman dashboard user (front end + 50% backend)
+Oktoboer
+Minggu 7:
+	finishing login dan sign up (back end)
+	finishing dashboard user -> kalo di klik udah bisa pindah activity lain
+	membuat activity activity lain 
+Minggu 8:
+	menyelesaikan halaman edit profil
+	membuat halaman belanja
+Minggu 9:
+	menyelesaikan halaman belanja
+	membuat halaman list belanja	
+Minggu 10:
+	menyelesaikan halaman list belanja
+	menyelesaikan halaman top up
+November
+Minggu 11:
+	menyelesaikan halaman riwayat belanja
+	debugging
+Minggu 12:
+	debugging
+Minggu 13:
+	debugging
+Minggu 14:
+	presentasi
+
+
+ 
